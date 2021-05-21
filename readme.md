@@ -30,6 +30,7 @@ A list of future planned changes are listed below.
 | Change Description | Priority |
 | --------------------------- | -------- | 
 | Handle csvs without headers | High     |
+| Convert csv columns which are numbers to python number format (currently left as strings) | High |
 
 ### Problems or improvements
 If you have any suggested fixes or improvements for this project, please 
