@@ -20,7 +20,7 @@ Damon,0,1,1
 ```
 
 ### Output Content
-```json
+```python
 {'Justice': {'Wins': 1, 'Losses': 0, 'Available': 1}, 'Damon': {'Wins': 0, 'Losses': 1, 'Available': 1}}
 ```
 
