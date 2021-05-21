@@ -62,6 +62,21 @@ def get_content(filepath,delim=","):
 
             else: # This is a value row, add it to the value
 
+              # If the column is numeric
+              if col.isnumeric():
+
+                # If the column converted to an int and a float 
+                # is the same value (value is an int)
+                if (int(col) == float(col)):
+
+                  # Cast the string to an int
+                  col = int(col)
+
+                else:
+
+                  # Cast the string to a float
+                  col = float(col)
+
               # Create a key-value pair
               # in the hashtable with the key
               # as the row heading and the value

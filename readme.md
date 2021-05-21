@@ -21,7 +21,7 @@ Damon,0,1,1
 
 ### Output Content
 ```json
-{'Justice': {'Wins': '1', 'Losses': '0', 'Available': '1'}, 'Damon': {'Wins': '0', 'Losses': '1', 'Available': '1'}}
+{'Justice': {'Wins': 1, 'Losses': 0, 'Available': 1}, 'Damon': {'Wins': 0, 'Losses': 1, 'Available': 1}}
 ```
 
 ## Future Changes
@@ -30,7 +30,6 @@ A list of future planned changes are listed below.
 | Change Description | Priority |
 | --------------------------- | -------- | 
 | Handle csvs without headers | High     |
-| Convert csv columns which are numbers to python number format (currently left as strings) | High |
 
 ### Problems or improvements
 If you have any suggested fixes or improvements for this project, please 
